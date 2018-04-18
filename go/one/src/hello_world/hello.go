@@ -18,6 +18,6 @@ func main() {
 	fmt.Println("The result is:", result)
 }
 
-func plus(a int, b int) int {
+func Plus(a int, b int) int {
 	return a + b
 }

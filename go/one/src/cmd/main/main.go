@@ -1,11 +1,14 @@
 package main
 
-import "fmt"
-import "os"
+import (
+	"fmt"
+	"functions"
+	"os"
+)
 
 func main() {
 	fmt.Println("Escolha um comando:")
-	exibeMenu()
+	functions.exibeMenu()
 	var choice = readInt()
 
 	if choice == 1 {
@@ -20,16 +23,4 @@ func main() {
 		os.Exit(-1)
 	}
 
-}
-
-func exibeMenu() {
-	fmt.Println("1 - Iniciar Monitoramento")
-	fmt.Println("2 - Exibir Logs")
-	fmt.Println("0 - Sair do Programa")
-}
-
-func readInt() int {
-	var comando int
-	fmt.Scan(&comando)
-	return comando
 }

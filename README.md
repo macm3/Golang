@@ -24,9 +24,8 @@ Go could be very trick when it comes to packages and working directory.
 Make sure you have your GOPATH and GOROOT set it up by following the steps that follows:
 
 ```
-$ export GOPATH=$HOME/go-workspace 
+$ export GOPATH=$HOME/go-workspace #don't forget to change your path correctly!
 ```
-# don't forget to change your path correctly!
 ```
 export GOROOT=/usr/local/opt/go/libexec
 ```
@@ -38,6 +37,7 @@ export PATH=$PATH:$GOROOT/bin
 ```
 
 **4. Building and running your project**
+
 You don't have to build your file. Golang it's beautiful and it can build and run your project at the same time.
 ```
 $ go run program.go

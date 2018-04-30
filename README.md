@@ -6,6 +6,7 @@ Also I'm trying to make my first Go Server. Let's see what I can do.
 
 
 ##Running
+
 In order to run this project you must install Go language here: https://golang.org/doc/install
 
 **1. Clone the repository**
@@ -27,13 +28,13 @@ Make sure you have your GOPATH and GOROOT set it up by following the steps that 
 $ export GOPATH=$HOME/go-workspace #don't forget to change your path correctly!
 ```
 ```
-export GOROOT=/usr/local/opt/go/libexec
+$ export GOROOT=/usr/local/opt/go/libexec
 ```
 ```
-export PATH=$PATH:$GOPATH/bin
+$ export PATH=$PATH:$GOPATH/bin
 ```
 ```
-export PATH=$PATH:$GOROOT/bin
+$ export PATH=$PATH:$GOROOT/bin
 ```
 
 **4. Building and running your project**

@@ -5,7 +5,7 @@ Beside the basic "Hello World" program, I'm trying to catch up with this course:
 Also I'm trying to make my first Go Server. Let's see what I can do.
 
 
-#Running
+**0. Running**
 
 In order to run this project you must install Go language here: https://golang.org/doc/install
 

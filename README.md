@@ -76,4 +76,4 @@ $ go build program.go
 ```
 $ go run 
 ```
-**5. Let's learn and have fun!!!!!!**
+**6. Let's learn and have fun!!!!!!**

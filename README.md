@@ -9,17 +9,13 @@ Also I'm trying to make my first Go Server. Let's see what I can do.
 
 In order to run this project you must install Go language here: https://golang.org/doc/install
 
-**1. Clone the repository**
-```
-$ git clone https://github.com/macm3/Golang.git
-```
-**2. Travell to repository's folder from terminal command line**
-
-**3. Make sure you have Go installed**
+**1. Make sure you have Go installed**
 
 ```
 $ go version
 ```
+
+**2. Set your GOPATH and GOROOT**
 
 Go could be very trick when it comes to packages and working directory.
 Make sure you have your GOPATH and GOROOT set it up by following the steps that follows:
@@ -37,7 +33,37 @@ $ export PATH=$PATH:$GOPATH/bin
 $ export PATH=$PATH:$GOROOT/bin
 ```
 
-**4. Building and running your project**
+**3. Travell to the repository folder that you installed Go from terminal command line**
+
+```
+$ cd go
+```
+
+```
+$ cd src
+```
+
+```
+$ cd github.com/
+```
+
+It is recommended to create your github's folder.
+
+```
+$ mkdir macm3 #don't forget to change to your git's user
+```
+
+```
+$ cd macm3
+```
+
+**4. Clone the repository**
+
+```
+$ git clone git-url
+```
+
+**5. Building and running your project**
 
 You don't have to build your file. Golang it's beautiful and it can build and run your project at the same time.
 ```

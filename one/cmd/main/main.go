@@ -2,14 +2,15 @@ package main
 
 import (
 	"fmt"
-	"functions"
 	"os"
+
+	. "github.com/macm3/Golang/one/src/functions"
 )
 
 func main() {
 	fmt.Println("Escolha um comando:")
-	functions.exibeMenu()
-	var choice = readInt()
+	ExibeMenu()
+	var choice = ReadInt()
 
 	if choice == 1 {
 
